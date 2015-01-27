@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3AE50E61A772E0900AC9895 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AE50E51A772E0900AC9895 /* main.m */; };
+		A3AE50E91A772E0900AC9895 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AE50E81A772E0900AC9895 /* AppDelegate.m */; };
+		A3AE50EC1A772E0900AC9895 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AE50EB1A772E0900AC9895 /* ViewController.m */; };
+		A3AE50EF1A772E0900AC9895 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AE50ED1A772E0900AC9895 /* Main.storyboard */; };
+		A3AE50F11A772E0900AC9895 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3AE50F01A772E0900AC9895 /* Images.xcassets */; };
+		A3AE50F41A772E0900AC9895 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3AE50F21A772E0900AC9895 /* LaunchScreen.xib */; };
+		A3AE51001A772E0900AC9895 /* CoinTossDiceRollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AE50FF1A772E0900AC9895 /* CoinTossDiceRollTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3AE50FA1A772E0900AC9895 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3AE50D81A772E0800AC9895 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3AE50DF1A772E0800AC9895;
+			remoteInfo = CoinTossDiceRoll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3AE50E01A772E0900AC9895 /* CoinTossDiceRoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinTossDiceRoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3AE50E41A772E0900AC9895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3AE50E51A772E0900AC9895 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3AE50E71A772E0900AC9895 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3AE50E81A772E0900AC9895 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3AE50EA1A772E0900AC9895 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A3AE50EB1A772E0900AC9895 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A3AE50EE1A772E0900AC9895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3AE50F01A772E0900AC9895 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A3AE50F31A772E0900AC9895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A3AE50F91A772E0900AC9895 /* CoinTossDiceRollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinTossDiceRollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3AE50FE1A772E0900AC9895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3AE50FF1A772E0900AC9895 /* CoinTossDiceRollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoinTossDiceRollTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3AE50DD1A772E0800AC9895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3AE50F61A772E0900AC9895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3AE50D71A772E0800AC9895 = {
+			isa = PBXGroup;
+			children = (
+				A3AE50E21A772E0900AC9895 /* CoinTossDiceRoll */,
+				A3AE50FC1A772E0900AC9895 /* CoinTossDiceRollTests */,
+				A3AE50E11A772E0900AC9895 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3AE50E11A772E0900AC9895 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3AE50E01A772E0900AC9895 /* CoinTossDiceRoll.app */,
+				A3AE50F91A772E0900AC9895 /* CoinTossDiceRollTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3AE50E21A772E0900AC9895 /* CoinTossDiceRoll */ = {
+			isa = PBXGroup;
+			children = (
+				A3AE50E71A772E0900AC9895 /* AppDelegate.h */,
+				A3AE50E81A772E0900AC9895 /* AppDelegate.m */,
+				A3AE50EA1A772E0900AC9895 /* ViewController.h */,
+				A3AE50EB1A772E0900AC9895 /* ViewController.m */,
+				A3AE50ED1A772E0900AC9895 /* Main.storyboard */,
+				A3AE50F01A772E0900AC9895 /* Images.xcassets */,
+				A3AE50F21A772E0900AC9895 /* LaunchScreen.xib */,
+				A3AE50E31A772E0900AC9895 /* Supporting Files */,
+			);
+			path = CoinTossDiceRoll;
+			sourceTree = "<group>";
+		};
+		A3AE50E31A772E0900AC9895 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3AE50E41A772E0900AC9895 /* Info.plist */,
+				A3AE50E51A772E0900AC9895 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3AE50FC1A772E0900AC9895 /* CoinTossDiceRollTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3AE50FF1A772E0900AC9895 /* CoinTossDiceRollTests.m */,
+				A3AE50FD1A772E0900AC9895 /* Supporting Files */,
+			);
+			path = CoinTossDiceRollTests;
+			sourceTree = "<group>";
+		};
+		A3AE50FD1A772E0900AC9895 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3AE50FE1A772E0900AC9895 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3AE50DF1A772E0800AC9895 /* CoinTossDiceRoll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3AE51031A772E0900AC9895 /* Build configuration list for PBXNativeTarget "CoinTossDiceRoll" */;
+			buildPhases = (
+				A3AE50DC1A772E0800AC9895 /* Sources */,
+				A3AE50DD1A772E0800AC9895 /* Frameworks */,
+				A3AE50DE1A772E0800AC9895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoinTossDiceRoll;
+			productName = CoinTossDiceRoll;
+			productReference = A3AE50E01A772E0900AC9895 /* CoinTossDiceRoll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3AE50F81A772E0900AC9895 /* CoinTossDiceRollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3AE51061A772E0900AC9895 /* Build configuration list for PBXNativeTarget "CoinTossDiceRollTests" */;
+			buildPhases = (
+				A3AE50F51A772E0900AC9895 /* Sources */,
+				A3AE50F61A772E0900AC9895 /* Frameworks */,
+				A3AE50F71A772E0900AC9895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3AE50FB1A772E0900AC9895 /* PBXTargetDependency */,
+			);
+			name = CoinTossDiceRollTests;
+			productName = CoinTossDiceRollTests;
+			productReference = A3AE50F91A772E0900AC9895 /* CoinTossDiceRollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3AE50D81A772E0800AC9895 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = cjmain;
+				TargetAttributes = {
+					A3AE50DF1A772E0800AC9895 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A3AE50F81A772E0900AC9895 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A3AE50DF1A772E0800AC9895;
+					};
+				};
+			};
+			buildConfigurationList = A3AE50DB1A772E0800AC9895 /* Build configuration list for PBXProject "CoinTossDiceRoll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3AE50D71A772E0800AC9895;
+			productRefGroup = A3AE50E11A772E0900AC9895 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3AE50DF1A772E0800AC9895 /* CoinTossDiceRoll */,
+				A3AE50F81A772E0900AC9895 /* CoinTossDiceRollTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3AE50DE1A772E0800AC9895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3AE50EF1A772E0900AC9895 /* Main.storyboard in Resources */,
+				A3AE50F41A772E0900AC9895 /* LaunchScreen.xib in Resources */,
+				A3AE50F11A772E0900AC9895 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3AE50F71A772E0900AC9895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3AE50DC1A772E0800AC9895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3AE50EC1A772E0900AC9895 /* ViewController.m in Sources */,
+				A3AE50E91A772E0900AC9895 /* AppDelegate.m in Sources */,
+				A3AE50E61A772E0900AC9895 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3AE50F51A772E0900AC9895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3AE51001A772E0900AC9895 /* CoinTossDiceRollTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3AE50FB1A772E0900AC9895 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3AE50DF1A772E0800AC9895 /* CoinTossDiceRoll */;
+			targetProxy = A3AE50FA1A772E0900AC9895 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3AE50ED1A772E0900AC9895 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3AE50EE1A772E0900AC9895 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3AE50F21A772E0900AC9895 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3AE50F31A772E0900AC9895 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3AE51011A772E0900AC9895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3AE51021A772E0900AC9895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3AE51041A772E0900AC9895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoinTossDiceRoll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3AE51051A772E0900AC9895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoinTossDiceRoll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A3AE51071A772E0900AC9895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoinTossDiceRollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinTossDiceRoll.app/CoinTossDiceRoll";
+			};
+			name = Debug;
+		};
+		A3AE51081A772E0900AC9895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoinTossDiceRollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinTossDiceRoll.app/CoinTossDiceRoll";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3AE50DB1A772E0800AC9895 /* Build configuration list for PBXProject "CoinTossDiceRoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3AE51011A772E0900AC9895 /* Debug */,
+				A3AE51021A772E0900AC9895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3AE51031A772E0900AC9895 /* Build configuration list for PBXNativeTarget "CoinTossDiceRoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3AE51041A772E0900AC9895 /* Debug */,
+				A3AE51051A772E0900AC9895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3AE51061A772E0900AC9895 /* Build configuration list for PBXNativeTarget "CoinTossDiceRollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3AE51071A772E0900AC9895 /* Debug */,
+				A3AE51081A772E0900AC9895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3AE50D81A772E0800AC9895 /* Project object */;
+}
